@@ -22,7 +22,7 @@ The people who will use my app are individuals interested in a career in softwar
 
 List the functionality that your app will include. These can be written as user stories or descriptions with related details. Do not describe _how_ these features are implemented, only _what_ needs to be implemented.
 
-The functionality that my app will include is that there will be quizzes to improve the user's knowledge of software development.  
+The functionality that my app will include is that there will be quizzes to improve the user's knowledge of software development.  There will also be PowerPoints and lectures to help the student in their software development journey.
 
 ## Implementation
 
@@ -30,9 +30,13 @@ The functionality that my app will include is that there will be quizzes to impr
 
 List technologies that will be used in your app, including any libraries to save time or provide more functionality. Be sure to research any potential limitations.
 
+The technologies that will be used in my app will be react, react-router-dom, node, and express.  
+
 ### APIs
 
 List any external sources of data that will be used in your app.
+
+The external sources of data that will be used in my app are this api, https://quizapi.io/.  I will use this api to bring in the data that is going to be used for my quiz functionality.
 
 ### Sitemap
 
