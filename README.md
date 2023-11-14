@@ -42,6 +42,8 @@ The external sources of data that will be used in my app are this api, https://q
 
 List the pages of your app with brief descriptions. You can show this visually, or write it out.
 
+One page will be the welcome page.  Other pages will be related to the level of the user: beginner, intermediate, or advanced.  There will also be additional pages related to each of the quizzes and PowerPoints/
+
 ### Mockups
 
 Provide visuals of your app's screens. You can use tools like Figma or pictures of hand-drawn sketches.
@@ -50,18 +52,28 @@ Provide visuals of your app's screens. You can use tools like Figma or pictures 
 
 Describe your data and the relationships between them. You can show this visually using diagrams, or write it out. 
 
+The data will be retrieved using an API.  I will also hardcode the quiz prompts and style the pages using scss.
+
 ### Endpoints
 
 List endpoints that your server will implement, including HTTP methods, parameters, and example responses.
+
+The HTTP endpoints that my server will implement will include GET, POST, PUT, and DELETE.
 
 ### Auth
 
 Does your project include any login or user profile functionality? If so, describe how authentication/authorization will be implemented.
 
+My project will utilize Auth0 for authentication purposes.
+
 ## Roadmap
 
 Scope your project as a sprint. Break down the tasks that will need to be completed and map out timeframes for implementation. Think about what you can reasonably complete before the due date. The more detail you provide, the easier it will be to build.
 
+I will try to have my project ready by demo day.
+
 ## Nice-to-haves
 
 Your project will be marked based on what you committed to in the above document. Under nice-to-haves, you can list any additional features you may complete if you have extra time, or after finishing.
+
+Additional features I may complete if I have extra time is animations for the pages.
