@@ -4,13 +4,13 @@
 
 What is your app? Brief description in a couple of sentences.
 
-My app is a travel app designed to give potential travellers access to relevant information regarding different countries and travel destinations.
+My app is a travel app designed to give potential travelers access to relevant information regarding different countries and travel destinations.  The pages for each of the different destinations will list pertinent information such as cuisine, weather, currency, and safety information.  There will also be a quiz associated with each page to get the user more oriented and more familiar with the different destinations.
 
 ### Problem
 
 Why is your app needed? Background information around any pain points or other reasons.
 
-Many people who are travelling do not have access to pertinent safety information and other logistical information. 
+Many people who are traveling do not have access to pertinent safety information and other logistical information.  I want to create a visually engaging and interactive way for users to become both more prepared and more interested in travel.
 
 ### User Profile
 
@@ -22,7 +22,7 @@ The people who will use my app are people interested in traveling.
 
 List the functionality that your app will include. These can be written as user stories or descriptions with related details. Do not describe _how_ these features are implemented, only _what_ needs to be implemented.
 
-The functionality that my app will include is that there will be different routes configured for different countries.  There will be multiple carousels to display different types of information in carousel format.  There will also be a page to display weather information for the different countries.
+The functionality that my app will include is that there will be different routes configured for different countries.  There will be multiple carousels to display different types of information in slideshow format.  There will also be a page to display weather information for the different countries.  There will be a quiz associated with each country as a way of getting the user more informed about the destination.
 
 ## Implementation
 
@@ -30,7 +30,7 @@ The functionality that my app will include is that there will be different route
 
 List technologies that will be used in your app, including any libraries to save time or provide more functionality. Be sure to research any potential limitations.
 
-The technologies that will be used in my app will be react, react-router-dom, node, and express.  
+The technologies that will be used in my app will be React, react-router-dom, node, and express.  
 
 ### APIs
 
