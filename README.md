@@ -1,79 +1,70 @@
-# Project Title
+# Getting Started with Create React App
 
-## Overview
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-What is your app? Brief description in a couple of sentences.
+## Available Scripts
 
-My app is a travel app designed to give potential travelers access to relevant information regarding different countries and travel destinations.  The pages for each of the different destinations will list pertinent information such as cuisine, weather, currency, and safety information.  There will also be a quiz associated with each page to get the user more oriented and more familiar with the different destinations.
+In the project directory, you can run:
 
-### Problem
+### `npm start`
 
-Why is your app needed? Background information around any pain points or other reasons.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Many people who are traveling do not have access to pertinent safety information and other logistical information.  I want to create a visually engaging and interactive way for users to become both more prepared and more interested in travel.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-### User Profile
+### `npm test`
 
-Who will use your app? How will they use it? Any special considerations that your app must take into account.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-The people who will use my app are people interested in traveling.  
+### `npm run build`
 
-### Features
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-List the functionality that your app will include. These can be written as user stories or descriptions with related details. Do not describe _how_ these features are implemented, only _what_ needs to be implemented.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-The functionality that my app will include is that there will be different routes configured for different countries.  There will be multiple carousels to display different types of information in slideshow format.  There will also be a page to display weather information for the different countries.  There will be a quiz associated with each country as a way of getting the user more informed about the destination.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## Implementation
+### `npm run eject`
 
-### Tech Stack
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-List technologies that will be used in your app, including any libraries to save time or provide more functionality. Be sure to research any potential limitations.
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-The technologies that will be used in my app will be React, react-router-dom, node, and express.  
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-### APIs
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-List any external sources of data that will be used in your app.
+## Learn More
 
-The external sources of data that will be used in my app include the Spoonacular API, https://spoonacular.com/food-api.  This API will be used for the recipe data that relates to each of the different countries.  I will also use a weather API and a currency API to list the currencies and conversion rates for the different countries.
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-### Sitemap
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-List the pages of your app with brief descriptions. You can show this visually, or write it out.
+### Code Splitting
 
-One page will be the front page.  There will be a menu on the frontpage with links to the different countries.  There will be separate pages and URLs for the different countries.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Mockups
+### Analyzing the Bundle Size
 
-Provide visuals of your app's screens. You can use tools like Figma or pictures of hand-drawn sketches.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Data
+### Making a Progressive Web App
 
-Describe your data and the relationships between them. You can show this visually using diagrams, or write it out. 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-A lot of the data will be retrieved using APIs.  If it is not possible to retrieve an image or another piece of information using an API, I will hardcode it in the code.
+### Advanced Configuration
 
-### Endpoints
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-List endpoints that your server will implement, including HTTP methods, parameters, and example responses.
+### Deployment
 
-The HTTP endpoints that my server will implement will include GET, POST, PUT, and DELETE.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### Auth
+### `npm run build` fails to minify
 
-Does your project include any login or user profile functionality? If so, describe how authentication/authorization will be implemented.
-
-My project will utilize Auth0 for authentication purposes.
-
-## Roadmap
-
-Scope your project as a sprint. Break down the tasks that will need to be completed and map out timeframes for implementation. Think about what you can reasonably complete before the due date. The more detail you provide, the easier it will be to build.
-
-By Thanksgiving I will try to have my routes and the carousels configured.  By Saturday, November 25, I will try to have at least 5 different country pages completed.  I will list the most popular countries and destinations. By next Monday I hope to have my prototype configured.  
-
-## Nice-to-haves
-
-Your project will be marked based on what you committed to in the above document. Under nice-to-haves, you can list any additional features you may complete if you have extra time, or after finishing.
-
-Additional features I may complete if I have extra time is animations for the pages.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
