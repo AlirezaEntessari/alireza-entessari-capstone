@@ -1,0 +1,70 @@
+@use '../../styles/partials/variables' as *;
+@use '../../styles/partials/mixins' as *;
+
+
+.header {
+
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+
+    &__list--item1 {
+        background-color: cadetblue;
+    }
+
+    &__list--item2 {
+        background-color: antiquewhite;
+    }
+
+    &__list--item3 {
+        background-color: cadetblue;
+    }
+
+    &__list--item4 {
+        background-color: antiquewhite;
+    }
+
+    &__list--item5 {
+        background-color: cadetblue;
+    }
+
+    &__list--item6 {
+        background-color: antiquewhite;
+    }
+
+}
+
+.horizontal-header {
+    display: none;
+}
+
+@include tablet {
+
+    .header {
+        display: none;
+    }
+
+    .horizontal-header {
+        background-color: #333; /* Set your desired background color */
+        color: #fff; /* Set your desired text color */
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      
+      nav ul {
+        list-style: none;
+        display: flex;
+      }
+      
+      nav ul li {
+        margin-right: 15px;
+        cursor: pointer;
+      }
+
+  
+
+
+}
+
