@@ -1,0 +1,46 @@
+@use '../../styles/partials/variables' as *;
+@use '../../styles/partials/mixins' as *;
+
+.main {
+
+    &__header {
+        text-align: center;
+    }
+
+    &__map {
+        width: 100%;
+    }
+
+
+
+}
+
+@include tablet {
+
+    .main {
+
+
+
+    }
+
+
+}
+
+@include desktop {
+
+    .main {
+
+    
+
+        &__map {
+            width: unset;
+            margin-left: 28rem;
+        }
+        
+
+
+    }
+
+
+
+}
