@@ -34,6 +34,10 @@
         background-color: antiquewhite;
     }
 
+    &__link--1 {
+        text-decoration: none;
+    }
+
 }
 
 .horizontal-header {
@@ -53,6 +57,13 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+
+        &__link {
+            text-decoration: none;
+            color: white;
+          }
+
+
       }
       
       nav ul {
@@ -64,6 +75,10 @@
         margin-right: 15px;
         cursor: pointer;
       }
+
+   
+
+      
 
   
 

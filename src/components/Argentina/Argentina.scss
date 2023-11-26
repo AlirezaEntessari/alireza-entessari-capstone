@@ -1,0 +1,30 @@
+@use '../../styles/partials/variables' as *;
+@use '../../styles/partials/mixins' as *;
+
+.argentina {
+
+    &__button {
+        color: white;
+        border-radius: 8px;
+        height: 3rem;
+        width: 8rem;
+        background-color: $capstone-blue;
+        font-size: 1rem;
+        margin-top: 1rem;
+
+        &--back {
+            color: white;
+            border-radius: 8px;
+            height: 3rem;
+            width: 8rem;
+            background-color: $capstone-blue;
+            font-size: 1rem;
+            margin-top: 1rem;
+            display: block;
+            text-decoration: none;
+        }
+      
+    }
+
+
+}

@@ -17,11 +17,6 @@
 
 @include tablet {
 
-    .main {
-
-
-
-    }
 
 
 }
@@ -30,11 +25,15 @@
 
     .main {
 
+
+        &__header {
+            margin-right: 6rem;
+        }
     
 
         &__map {
             width: unset;
-            margin-left: 28rem;
+            margin-left: 26rem;
         }
         
 
