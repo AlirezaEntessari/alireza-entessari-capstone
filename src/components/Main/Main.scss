@@ -8,14 +8,24 @@
     }
 
     &__map {
-        width: 100%;
+        width: 95%;
+        margin-left: 1rem;
     }
-
 
 
 }
 
 @include tablet {
+
+   .main {
+
+    &__map {
+        margin-left: 1.5rem;
+    }
+    
+
+
+   }
 
 
 

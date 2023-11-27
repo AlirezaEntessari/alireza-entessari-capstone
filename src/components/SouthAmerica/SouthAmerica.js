@@ -11,7 +11,7 @@ export const SouthAmericaComponent = () => {
     <>
       <div className="south-america">
         <div className="south-america__container">
-          <h1>South America</h1>
+          <h1 className="south-america__header">South America</h1>
           <Link to="/">
             <button className="south-america__button">Home</button>
           </Link>

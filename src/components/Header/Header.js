@@ -7,12 +7,12 @@ export const Header = () => {
       <header>
         <div className="header">
           <ul className="header__list">
-            <Link className="header__link--1" to="/NorthAmerica"><div className="header__list--item1">North America</div></Link>
-            <Link className="header__link--2" to="/SouthAmerica"><div className="header__list--item2">South America</div></Link>
-            <Link className="header__link--3" to="/Europe"><div className="header__list--item3">Europe</div></Link>
-            <Link className="header__link-4" to="/Africa"><div className="header__list--item4">Africa</div></Link>
-            <Link className="header__link-5" to="/Asia"><div className="header__list--item5">Asia</div></Link>
-            <Link className="header__link-6"><div className="header__list--item6">Australia</div></Link>
+            <Link className="header__link" to="/NorthAmerica"><div className="header__list--item1">North America</div></Link>
+            <Link className="header__link" to="/SouthAmerica"><div className="header__list--item2">South America</div></Link>
+            <Link className="header__link" to="/Europe"><div className="header__list--item3">Europe</div></Link>
+            <Link className="header__link" to="/Africa"><div className="header__list--item4">Africa</div></Link>
+            <Link className="header__link" to="/Asia"><div className="header__list--item5">Asia</div></Link>
+            <Link className="header__link" to="/Australia"><div className="header__list--item6">Australia</div></Link>
           </ul>
         </div>
         <div className="horizontal-header">

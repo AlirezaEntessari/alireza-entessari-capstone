@@ -25,6 +25,31 @@
         margin-left: 2rem;
     }
 
+}
 
+@include tablet {
+
+    .south-america {
+
+        &__image {
+            width: 70%;
+            margin-left: 9.5rem;
+        }
+
+    }
+
+}
+
+@include desktop {
+
+    .south-america {
+
+        &__image {
+            width: 50%;
+            height: 50%;
+            justify-content: center;
+        }
+
+    }
 
 }
