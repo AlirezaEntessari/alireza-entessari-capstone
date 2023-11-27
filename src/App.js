@@ -30,44 +30,42 @@ import Turkey from "./components/Turkey/Turkey";
 import India from "./components/India/India";
 import AustralianCountry from "./components/AustralianCountry/AustralianCountry";
 import NewZealand from "./components/NewZealand/NewZealand";
-
-
+import Search from "./components/Search/Search";
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Homepage/>}/>
-          <Route path="/NorthAmerica" element={<NorthAmericaComponent/>} />
-          <Route path="/SouthAmerica" element={<SouthAmericaComponent/>} />
-          <Route path="/Europe" element={<EuropeComponent/>} />
-          <Route path="/Africa" element={<AfricaComponent/>} />
-          <Route path="/Asia" element={<AsiaComponent/>} />
-          <Route path="/Australia" element={<AustraliaComponent/>} />
-          <Route path="/USA" element={<USA/>} />
-          <Route path="/Canada" element={<Canada/>} />
-          <Route path="/Mexico" element={<Mexico/>} />
-          <Route path="/Jamaica" element={<Jamaica/>} />
-          <Route path="/Brazil" element={<Brazil/>} />
-          <Route path="/Argentina" element={<Argentina/>} />
-          <Route path="/Colombia" element={<Colombia/>} />
-          <Route path="/Chile" element={<Chile/>} />
-          <Route path="/Morocco" element={<Morocco/>} />
-          <Route path="/Egypt" element={<Egypt/>} />
-          <Route path="/SouthAfrica" element={<SouthAfrica/>} />
-          <Route path="/Kenya" element={<Kenya/>} />
-          <Route path="/Spain" element={<Spain/>} />
-          <Route path="/UnitedKingdom" element={<UnitedKingdom/>} />
-          <Route path="/France" element={<France/>} />
-          <Route path="/Italy" element={<Italy/>} />
-          <Route path="/China" element={<China/>} />
-          <Route path="/Japan" element={<Japan/>} />
-          <Route path="/Turkey" element={<Turkey/>} />
-          <Route path="/India" element={<India/>} />
-          <Route path="/AustraliaCountry" element={<AustralianCountry/>} />
-          <Route path="/NewZealand" element={<NewZealand/>} />
-         
+          <Route path="/" element={<Homepage />} />
+          <Route path="/NorthAmerica" element={<NorthAmericaComponent />} />
+          <Route path="/SouthAmerica" element={<SouthAmericaComponent />} />
+          <Route path="/Europe" element={<EuropeComponent />} />
+          <Route path="/Africa" element={<AfricaComponent />} />
+          <Route path="/Asia" element={<AsiaComponent />} />
+          <Route path="/Australia" element={<AustraliaComponent />} />
+          <Route path="/USA" element={<USA />} />
+          <Route path="/Canada" element={<Canada />} />
+          <Route path="/Mexico" element={<Mexico />} />
+          <Route path="/Jamaica" element={<Jamaica />} />
+          <Route path="/Brazil" element={<Brazil />} />
+          <Route path="/Argentina" element={<Argentina />} />
+          <Route path="/Colombia" element={<Colombia />} />
+          <Route path="/Chile" element={<Chile />} />
+          <Route path="/Morocco" element={<Morocco />} />
+          <Route path="/Egypt" element={<Egypt />} />
+          <Route path="/SouthAfrica" element={<SouthAfrica />} />
+          <Route path="/Kenya" element={<Kenya />} />
+          <Route path="/Spain" element={<Spain />} />
+          <Route path="/UnitedKingdom" element={<UnitedKingdom />} />
+          <Route path="/France" element={<France />} />
+          <Route path="/Italy" element={<Italy />} />
+          <Route path="/China" element={<China />} />
+          <Route path="/Japan" element={<Japan />} />
+          <Route path="/Turkey" element={<Turkey />} />
+          <Route path="/India" element={<India />} />
+          <Route path="/AustraliaCountry" element={<AustralianCountry />} />
+          <Route path="/NewZealand" element={<NewZealand />} />
         </Routes>
       </BrowserRouter>
     </div>
