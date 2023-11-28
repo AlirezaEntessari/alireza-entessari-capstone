@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import AustralianImage from '../../assets/images/australia-map.gif';
 import AustralianFlag from '../../assets/images/Flag-Australia (1).webp';
 import NewZealandFlag from '../../assets/images/Flag_of_New_Zealand.svg.webp';
+import NewZealandMap from '../../assets/images/new-zealand-map.gif';
 
 export const AustraliaComponent = () => {
   return (
@@ -17,6 +18,7 @@ export const AustraliaComponent = () => {
           <Link to="/NewZealand"><img className="australia__flag" src={NewZealandFlag} alt="New Zealand flag" /></Link>
         </div>
         <img src={AustralianImage} alt="map of Australia" />
+        <img src={NewZealandMap} alt="map of New Zealand" />
       </div>
     </>
   );
