@@ -6,7 +6,7 @@ import YouTube from "react-youtube";
 import { Link } from "react-router-dom";
 
 const Jamaica = () => {
-  const [videoId, setVideoId] = useState("-4qqNLMLAHw");
+  const [videoId, setVideoId] = useState("ZHxFOGplBZc");
 
   return (
     <>
