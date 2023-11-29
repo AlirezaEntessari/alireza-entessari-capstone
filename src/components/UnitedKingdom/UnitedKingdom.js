@@ -18,6 +18,14 @@ const UnitedKingdom = () => {
           <Link to="/Europe">
             <button className="united-kingdom__button--back">Back</button>
           </Link>
+          <Link
+          to="https://wikitravel.org/en/United_Kingdom"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="united-kingdom__link"
+        >
+          Additional UK Travel Information
+        </Link>
       </div>
     </>
   );

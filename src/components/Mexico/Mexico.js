@@ -18,6 +18,14 @@ const Mexico = () => {
           <Link to="/NorthAmerica">
             <button className="mexico__button--back">Back</button>
           </Link>
+          <Link
+          to="https://wikitravel.org/en/Mexico"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mexico__link"
+        >
+          Additional Mexico Travel Information
+        </Link>
       </div>
     </>
   );

@@ -18,6 +18,14 @@ const Turkey = () => {
           <Link to="/Asia">
             <button className="turkey__button--back">Back</button>
           </Link>
+          <Link
+          to="https://wikitravel.org/en/T%C3%BCrkiye"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="turkey__link"
+        >
+          Additional Turkey Travel Information
+        </Link>
       </div>
     </>
   );

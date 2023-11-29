@@ -18,6 +18,14 @@ const Egypt = () => {
           <Link to="/Africa">
             <button className="egypt__button--back">Back</button>
           </Link>
+          <Link
+          to="https://wikitravel.org/en/Egypt"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="egypt__link"
+        >
+          Additional Egypt Travel Information
+        </Link>
       </div>
     </>
   );

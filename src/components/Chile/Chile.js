@@ -18,6 +18,14 @@ const Chile = () => {
           <Link to="/SouthAmerica">
             <button className="chile__button--back">Back</button>
           </Link>
+          <Link
+          to="https://wikitravel.org/en/Chile"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="chile__link"
+        >
+          Additional Chile Travel Information
+        </Link>
       </div>
     </>
   );

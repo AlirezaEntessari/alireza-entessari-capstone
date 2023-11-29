@@ -18,6 +18,14 @@ const Italy = () => {
           <Link to="/Europe">
             <button className="italy__button--back">Back</button>
           </Link>
+          <Link
+          to="https://wikitravel.org/en/Italy"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="italy__link"
+        >
+          Additional Italy Travel Information
+        </Link>
       </div>
     </>
   );

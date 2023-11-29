@@ -13,11 +13,19 @@ const USA = () => {
       <div className="usa">
         <YouTube videoId={videoId} />
         <Link to="/">
-            <button className="usa__button">Home</button>
-          </Link>
-          <Link to="/NorthAmerica">
-            <button className="usa__button--back">Back</button>
-          </Link>
+          <button className="usa__button">Home</button>
+        </Link>
+        <Link to="/NorthAmerica">
+          <button className="usa__button--back">Back</button>
+        </Link>
+        <Link
+          to="https://wikitravel.org/en/United_States_of_America"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="usa__link"
+        >
+          Additional USA Travel Information
+        </Link>
       </div>
     </>
   );

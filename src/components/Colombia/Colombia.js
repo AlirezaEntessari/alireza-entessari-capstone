@@ -18,6 +18,14 @@ const Colombia = () => {
           <Link to="/SouthAmerica">
             <button className="colombia__button--back">Back</button>
           </Link>
+          <Link
+          to="https://wikitravel.org/en/Colombia"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="colombia__link"
+        >
+          Additional Colombia Travel Information
+        </Link>
       </div>
     </>
   );

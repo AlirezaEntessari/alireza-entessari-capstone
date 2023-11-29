@@ -18,6 +18,14 @@ const NewZealand = () => {
         <Link to="/Australia">
           <button className="new-zealand__button--back">Back</button>
         </Link>
+        <Link
+          to="https://wikitravel.org/en/New_Zealand"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="new-zealand__link"
+        >
+          Additional New Zealand Travel Information
+        </Link>
       </div>
     </>
   );

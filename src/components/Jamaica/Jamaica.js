@@ -18,6 +18,14 @@ const Jamaica = () => {
           <Link to="/NorthAmerica">
             <button className="jamaica__button--back">Back</button>
           </Link>
+          <Link
+          to="https://wikitravel.org/en/Jamaica"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="jamaica__link"
+        >
+          Additional Jamaica Travel Information
+        </Link>
       </div>
     </>
   );
