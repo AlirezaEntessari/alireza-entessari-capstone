@@ -5,6 +5,7 @@ import CurrentWeather from "../../components/Current-Weather/Current-Weather"
 import { WEATHER_API_KEY, WEATHER_API_URL  } from "../../API"
 import { useState } from "react"
 import Forecast from "../../components/Forecast/Forecast"
+import './Homepage.scss'
 
 export function Homepage() {
 
@@ -37,6 +38,7 @@ export function Homepage() {
     return(
         <>
             <Header/>
+            <h3 className="homepage__header">Weather</h3>
             <Search onSearchChange={handleOnSearchChange}/>
             { currentWeather && <CurrentWeather data={currentWeather}/> }
             { forecast && <Forecast data={forecast} /> }
